@@ -1,0 +1,13 @@
+{
+  "watch": ["server.js", "agents", "middleware", "routes", "services"],
+  "ext": "js,mjs,cjs,json",
+  "ignore": [
+    "prisma/dev.db",
+    "prisma/dev.db-journal",
+    "prisma/*.db",
+    "prisma/*.db-journal",
+    "prisma/*.db-wal",
+    "prisma/*.db-shm",
+    "node_modules"
+  ]
+}
